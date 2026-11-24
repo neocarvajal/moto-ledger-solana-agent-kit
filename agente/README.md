@@ -24,7 +24,7 @@ Crea `agente/.env` con este contenido (sin comillas y sin espacios):
 
 ```env
 RPC_URL=https://api.devnet.solana.com
-OWNER=TuWalletPublica
+OWNER=CCF4CnM99mXSxz2sFffxT4A4CZxpWNsKNPbwueJThGMo
 NOMBRE_CONCESIONARIO=EK EMPIRE
 
 GEMINI_API_KEY=TuClaveDeGemini
