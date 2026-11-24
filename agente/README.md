@@ -37,6 +37,8 @@ GEMINI_MODEL=gemini-3.5-flash-lite
 GEMINI_MODEL_FALLBACKS=gemini-flash-lite-latest,gemini-3.1-flash-lite,gemini-3.5-flash
 ```
 
+Puedes crear el API KEY de GEMINI acá: https://aistudio.google.com/api-keys
+
 `agente/.env.example` es la plantilla versionable (sin secretos): copiarla como `.env` y rellenar los valores reales. El `.env` real está ignorado por Git (`.gitignore` → `.env*`); nunca subirlo. Si una clave fue compartida en un chat o commit, rotarla.
 
 `src/cargarEnv.ts` carga `agente/.env` mediante una ruta calculada desde el propio archivo. Funciona con `npm start` desde `agente/` y con `tsx agente/src/prueba.ts` desde la raíz del repositorio.
