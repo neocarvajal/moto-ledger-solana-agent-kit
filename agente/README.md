@@ -5,7 +5,7 @@ Asistente de **solo lectura** para consultar el registro de MotoLedger en Solana
 Usa **Gemini** mediante el conector oficial de LangChain (`@langchain/google` / `ChatGoogle`). No hay servidor local ni endpoint compatible con OpenAI: el SDK de Google gestiona automáticamente las firmas de razonamiento (`thought_signature`) que Gemini 3 exige en el function calling.
 
 <p align="center">
-  <img src="assets/solana.agent-kit-mmotoledger.gif" alt="Demostración animada del agente de MotoLedger" width="100%">
+  <img src="../assets/moto-ledger-solana-gent-kit.gif" alt="Demostración animada del agente de MotoLedger" width="100%">
 </p>
 
 
@@ -36,6 +36,8 @@ GEMINI_API_KEY=TuClaveDeGemini
 GEMINI_MODEL=gemini-3.5-flash-lite
 GEMINI_MODEL_FALLBACKS=gemini-flash-lite-latest,gemini-3.1-flash-lite,gemini-3.5-flash
 ```
+
+Puedes crear el API KEY de GEMINI acá: https://aistudio.google.com/api-keys
 
 `agente/.env.example` es la plantilla versionable (sin secretos): copiarla como `.env` y rellenar los valores reales. El `.env` real está ignorado por Git (`.gitignore` → `.env*`); nunca subirlo. Si una clave fue compartida en un chat o commit, rotarla.
 
