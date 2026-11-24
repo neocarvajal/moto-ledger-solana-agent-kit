@@ -5,7 +5,7 @@ Asistente de **solo lectura** para consultar el registro de MotoLedger en Solana
 Usa **Gemini** mediante el conector oficial de LangChain (`@langchain/google` / `ChatGoogle`). No hay servidor local ni endpoint compatible con OpenAI: el SDK de Google gestiona automáticamente las firmas de razonamiento (`thought_signature`) que Gemini 3 exige en el function calling.
 
 <p align="center">
-  <img src="../assets/solana-agent-kit-mmotoledger.gif" alt="Demostración animada del agente de MotoLedger" width="100%">
+  <img src="../assets/moto-ledger-solana-gent-kit.gif" alt="Demostración animada del agente de MotoLedger" width="100%">
 </p>
 
 
